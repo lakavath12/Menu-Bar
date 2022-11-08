@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    left: 0;
+    height:60px; 
+    width: 100%;
+    text-align: center;
+    background: #fdd804;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background: #3cb2d6;
+    color: black;
+}
+
+.nav {
+    height:50vh;
+    width: 0;
+    position:fixed ;
+    z-index: 1;
+    top: 60px;
+    left:0%;
+    background-color: #6d6d69;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 30px;
+    transition: 0.7s;
+}
+
+.nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+}
+
+.nav a:hover {
+    color: rgb(253, 22, 6);
+    transition: 0.4s;
+    transform:scale(1.0);
+}
+
+.nav .close {
+    position: absolute;
+    top: 0;
+    right:0px;
+    margin-left:0px;
+    font-size: 40px;
+}
+
+
+
+.slide a {
+    color: rgb(17, 17, 17);
+    font-size: 40px;
+
+}
+
+#content {
+    padding: 50px;
+    left: 0;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img img{
+    transition: all 1.3s ease;
+}
+.card-img:hover img{
+    transform: scale(1.2);
+}
+
